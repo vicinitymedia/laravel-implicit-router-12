@@ -341,7 +341,7 @@ class Router
 //                Route::{$route['verb']}( $route['uri'] ,  "{$controller}@{$method}" );
 
 // should add middleware support later
-                Route::{$route['verb']}( $route['uri'] ,  "{$controllerClassName}@{$method}" );
+                Route::{$route['verb']}( $route['uri'] ,  "{$controller}@{$method}" );
 
 // middleware support not working as following
 //                Route::{$route['verb']}( $route['uri'] ,  [
